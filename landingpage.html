@@ -1,0 +1,764 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PLAY?</title>
+<style type="text/css">
+.mediaViewInfo {
+--web-view-name: PLAY?;
+--web-view-id: PLAY;
+--web-scale-to-fit: true;
+--web-scale-to-fit-type: width;
+--web-enable-scale-up: true;
+--web-scale-on-resize: true;
+--web-center-horizontally: true;
+--web-enable-deep-linking: true;
+--web-page-font: Courier New;
+}
+:root {
+--web-view-ids: PLAY;
+}
+body, html {
+     padding: 0px;
+    border: none;
+    width: 100%;
+    background-color: #000000;
+    font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+    overflow-x: hidden;
+	}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;
+	}
+#PLAY {
+    position: static;
+    max-width: 960px;
+    height: 850px;
+    background-color: rgba(0,0,0,1);
+    font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+    overflow: hidden;
+        --web-view-name: PLAY?;
+        --web-view-id: PLAY;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-enable-scale-up: true;
+        --web-scale-on-resize: true;
+        --web-center-horizontally: true;
+        --web-enable-deep-linking: true;
+        --web-page-font: Georgia;
+}
+#start {
+    position: absolute;
+    width: 276px;
+    height: 48px;
+    left: 154px;
+    top: 230.992px;
+    overflow: hidden;
+}
+#start:hover {
+  box-shadow: 0 5px 17px 0 rgba(255,255,255,1), 0 15px 50px 0 rgba(0,0,0,0.19);
+}
+#START_r {
+    left: 111px;
+    top: 14.008px;
+    position: absolute;
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255,255,255,1);
+}
+#ButtonStart {
+    fill: #6F0000;
+    position: absolute;
+    overflow: visible;
+    width: 276px;
+    height: 48px;
+    left: 154px;
+    top: 230.992px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#Introtext {
+    opacity: 0.802;
+    left: 107px;
+    top: 180px;
+    position: absolute;
+    overflow: visible;
+    width: 361px;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+}
+#Do_you_want_to_play {
+    left: 107px;
+    top: 102.869px;
+    position: absolute;
+    overflow: visible;
+    width: 371px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
+#Hero_Header {
+    position: absolute;
+    width: auto;
+    height: 380px;
+    color: #883939;
+    left: 20px;
+    right: 20px;
+    top: 90px;
+    overflow: hidden;
+}
+#Video {
+    fill: rgba(136,57,57,1);
+}
+.Video {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: auto;
+    align-content: space-around center;
+    top: 0px;
+}
+#Game_warnings {
+    position: absolute;
+    width: 457px;
+    height: 211.724px;
+    left: 813px;
+    top: 511.276px;
+    overflow: visible;
+}
+#TW3 {
+    left: 42.725px;
+    top: 160px;
+    position: absolute;
+    overflow: visible;
+    width: 201px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#X3 {
+    position: absolute;
+    width: 15.557px;
+    height: 15.557px;
+    color: #FFFFFF;
+    left: 4.462px;
+    top: 160px;
+    overflow: visible;
+}
+#Union_3 {
+    fill: rgba(255,255,255,1);
+}
+.Union_3 {
+    overflow: visible;
+    position: absolute;
+    width: 15.557px;
+    height: 15.557px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#TW2 {
+    left: 42.725px;
+    top: 130px;
+    position: absolute;
+    overflow: visible;
+    width: 201px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#X2 {
+    position: absolute;
+    width: 15.557px;
+    height: 15.557px;
+    color: #FFFFFF;
+    left: 4.462px;
+    top: 130px;
+    overflow: visible;
+}
+#Union_3_ {
+    fill: rgba(255,255,255,1);
+}
+.Union_3_ {
+    overflow: visible;
+    position: absolute;
+    width: 15.557px;
+    height: 15.557px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#TW1 {
+    left: 42.725px;
+    top: 100px;
+    position: absolute;
+    overflow: visible;
+    width: 201px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#X1 {
+    position: absolute;
+    width: 15.557px;
+    height: 15.557px;
+    color: #FFFFFF;
+    left: 4.462px;
+    top: 100px;
+    overflow: visible;
+}
+#Union_3_ba {
+    fill: rgba(255,255,255,1);
+}
+.Union_3_ba {
+    overflow: visible;
+    position: absolute;
+    width: 15.557px;
+    height: 15.557px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#GAMETW {
+    right: 0px;
+    top: 40px;
+    position: absolute;
+    overflow: visible;
+    width: 458px;
+    height: 53px;
+    line-height: 24px;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#GAME_WARNINGS {
+    right: 320px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 139px;
+    white-space: nowrap;
+    line-height: 24px;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#Background_info__How_to_Play {
+    position: absolute;
+    width: 421px;
+    height: 231px;
+    left: 96px;
+    top: 514px;
+    overflow: visible;
+}
+#GAMEINSTRUCTIONS {
+    left: 50px;
+    top: 190px;
+    position: absolute;
+    overflow: visible;
+    width: 422px;
+    height: 75px;
+    line-height: 24px;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#_HOW_TO_PLAY {
+    left: 50px;
+    top: 130px;
+    position: absolute;
+    overflow: visible;
+    width: 110px;
+    white-space: nowrap;
+    line-height: 24px;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#SYNOPSISTEXT {
+    left: 50px;
+    top: 40px;
+    position: absolute;
+    overflow: visible;
+    width: 422px;
+    height: 75px;
+    line-height: 24px;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#BACKGROUND_INFO__SUMMARY {
+    left: 50px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 251px;
+    white-space: nowrap;
+    line-height: 24px;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#Navigation_Bar {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Base {
+    fill: #6F0000;
+    overflow: visible;
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+li {
+    display: inline;
+}
+li a:hover {
+    color: #4E0000;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.active {
+    color: #4E0000;
+}
+#Search {
+    position: absolute;
+    width: 15.9px;
+    height: 15.9px;
+    color: #FFFFFF;
+    right: 103px;
+    top: 37px;
+    overflow: visible;
+}
+#Path_208 {
+    fill: rgba(255,255,255,1);
+}
+.Path_208 {
+    overflow: hidden;
+    position: relative;
+    width: 15.9px;
+    height: 15.9px;
+    color: #FFFFFF;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Path_208:hover {
+    fill: #430B0B !important;
+}
+#Heart {
+    background-color: #6F;
+    fill: #FFFFFF;
+    position: absolute;
+    width: 16px;
+    height: 14.119px;
+    right: 146px;
+    top: 37px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#Heart:hover {
+    fill: #430B0B !important;
+    background-color: #6F0000;
+}
+#Symbol_10__3 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #6F;
+    right: 63px;
+    top: 37px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#Options {
+    fill: #6F0000;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#Union_1 {
+    fill: #FFFFFF;
+}
+.Union_1 {
+    overflow: visible;
+    position: absolute;
+    width: 3px;
+    height: 15px;
+    left: 7px;
+    top: 1px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Union_1:hover {
+    fill: #430B0B;
+}
+#OUR_SOCIALS {
+    left: 747.233px;
+    top: 37px;
+    position: absolute;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#SHARE_YOUR_THOUGHTS {
+    left: 528.084px;
+    top: 37px;
+    position: absolute;
+    overflow: visible;
+    width: 174px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#MERCHANDISE {
+    left: 377.829px;
+    top: 37px;
+    position: absolute;
+    overflow: visible;
+    width: 106px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#GAME_CREDS {
+    left: 227.154px;
+    top: 37px;
+    position: absolute;
+    overflow: visible;
+    width: 106px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#PLAY_bp {
+    left: 146.577px;
+    top: 37px;
+    position: absolute;
+    overflow: visible;
+    width: 36px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#ABOUT_bq {
+    left: 53px;
+    top: 37px;
+    position: absolute;
+    overflow: visible;
+    width: 49px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#Footer_10 {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    bottom: 0px;
+    overflow: visible;
+}
+#Base_bs {
+    fill: transparent;
+}
+.Base_bs {
+    overflow: visible;
+    position: absolute;
+    width: 1366px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#PROPERTY_OF_JANA_ANTONIA_NG_NG {
+    left: 60px;
+    top: 29px;
+    position: absolute;
+    overflow: visible;
+    width: 321px;
+    white-space: nowrap;
+    line-height: 26px;
+    text-align: left;
+    font-family: Georgia, Courier New;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    color: rgba(255,255,255,1);
+}
+#up {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 50px;
+    top: 14px;
+    overflow: visible;
+    cursor: pointer;
+}
+#Rectangle_130 {
+    fill: transparent;
+}
+.Rectangle_130 {
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Symbol_50__1 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 12px;
+    top: 12px;
+    overflow: visible;
+}
+#Path_10 {
+    fill: rgba(255,255,255,1);
+}
+.Path_10 {
+    overflow: visible;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    transform: translate(0px, 0px) matrix(1, 0, 0, 1, 0, 0) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+</style>
+<script>
+	//Get the button
+	upbutton = document.getElementById("up");
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    upbutton.style.display = "block";
+  } else {
+    upbutton.style.display = "none";
+  }
+}
+function topFunction() {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}
+	</script>
+</head>
+
+<body>
+	  <div class="main">
+<div id="PLAY">
+	<audio autoplay loop>
+  <source src="base soundtrack_01.ogg" type="audio/ogg" >
+  <source src="base soundtrack_01.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+	<div class="right">
+  <div id="Hero_Header" class="Hero_Header">
+	  <img src="dollstartgame.gif" alt="come play with miss dolly!" width="100%" height="auto">
+	 <a href="day1.html">
+    <div id="start" class="start">
+      <svg class="ButtonStart">
+        <rect id="ButtonStart" rx="4" ry="4" x="0" y="0" width="276" height="48"> 
+		  </rect>
+      </svg>
+      <div id="START_r"> START </div>
+    </div>
+		 </a>
+    <div id="Introtext"> I've never had a friend before... </div>
+    <div id="Do_you_want_to_play"> Do you want to play? </div>
+  </div>
+  <div id="Game_warnings" class="Game_warnings">
+    <div id="TW3"> Sudden jumpscares </div>
+    <div id="X3" class="X3">
+      <svg class="Union_3" viewBox="0 0 15.557 15.557">
+        <path id="Union_3" d="M 7.778002738952637 9.192398071289062 L 1.413900017738342 15.55650043487549 L 0 14.14170074462891 L 6.363697528839111 7.778002738952637 L 0 1.413900017738342 L 1.413900017738342 0 L 7.778002738952637 6.363697528839111 L 14.14170074462891 0 L 15.55650043487549 1.413900017738342 L 9.192398071289062 7.778002738952637 L 15.55650043487549 14.14170074462891 L 14.14170074462891 15.55650043487549 L 7.778002738952637 9.192398071289062 Z"> </path>
+      </svg>
+    </div>
+    <div id="TW2"> Loud and sudden noises </div>
+    <div id="X2" class="X3">
+      <svg class="Union_3_" viewBox="0 0 15.557 15.557">
+        <path id="Union_3_" d="M 7.778002738952637 9.192398071289062 L 1.413900017738342 15.55650043487549 L 0 14.14170074462891 L 6.363697528839111 7.778002738952637 L 0 1.413900017738342 L 1.413900017738342 0 L 7.778002738952637 6.363697528839111 L 14.14170074462891 0 L 15.55650043487549 1.413900017738342 L 9.192398071289062 7.778002738952637 L 15.55650043487549 14.14170074462891 L 14.14170074462891 15.55650043487549 L 7.778002738952637 9.192398071289062 Z"> </path>
+      </svg>
+    </div>
+    <div id="TW1"> Themes of horror and mild gore </div>
+    <div id="X1" class="X3">
+      <svg class="Union_3_ba" viewBox="0 0 15.557 15.557">
+        <path id="Union_3_ba" d="M 7.778002738952637 9.192398071289062 L 1.413900017738342 15.55650043487549 L 0 14.14170074462891 L 6.363697528839111 7.778002738952637 L 0 1.413900017738342 L 1.413900017738342 0 L 7.778002738952637 6.363697528839111 L 14.14170074462891 0 L 15.55650043487549 1.413900017738342 L 9.192398071289062 7.778002738952637 L 15.55650043487549 14.14170074462891 L 14.14170074462891 15.55650043487549 L 7.778002738952637 9.192398071289062 Z"> </path>
+      </svg>
+    </div>
+    <div id="GAMETW"> Please proceed at your own discretion as the following content may contain: </div>
+    <div id="GAME_WARNINGS"> GAME WARNINGS </div>
+  </div>
+  <div id="Background_info__How_to_Play" class="Background_info___How_to_Play">
+    <div id="GAMEINSTRUCTIONS"> Click along to find out the story and piece together the mystery. <br>
+      Don't get caught. <br>TURN ON SOUND FOR THE FULL EXPERIENCE</div>
+    <div id="_HOW_TO_PLAY"> <br/>
+      HOW TO PLAY</div>
+    <div id="SYNOPSISTEXT"> What started as an innocent parting gift from your late grandmother seems to be more sinister than you expected. <br>
+      'Dolly' appears to be coming alive at night, whispers foreshadowing a tragic death. </div>
+    <div id="BACKGROUND_INFO__SUMMARY"> STORY SYNOPSIS </div>
+  </div>
+	</div>
+	<div style="overflow:auto">
+  <div id="Navigation_Bar" class="Navigation_Bar">
+    <svg class="Base" viewBox="0 0 1366 90">
+      <path id="Base" d="M 0 0 L 1366 0 L 1366 90 L 0 90 L 0 0 Z"> </path>
+    </svg>
+    <div id="Search" class="Search">
+      <svg class="Path_208" viewBox="0 0 15.9 15.9">
+        <path id="Path_208" d="M 15.89999961853027 14.5 L 12.59999942779541 11.19999980926514 C 13.5 10 14 8.600000381469727 14 7 C 14 3.099999904632568 10.89999961853027 0 7 0 C 3.100000381469727 0 0 3.099999904632568 0 7 C 0 10.89999961853027 3.099999904632568 14 7 14 C 8.600000381469727 14 10 13.5 11.19999980926514 12.60000038146973 L 14.5 15.90000057220459 L 15.89999961853027 14.5 Z M 2 7 C 2 4.199999809265137 4.199999809265137 2 7 2 C 9.800000190734863 2 12 4.199999809265137 12 7 C 12 9.800000190734863 9.800000190734863 12 7 12 C 4.199999809265137 12 2 9.800000190734863 2 7 Z"> </path>
+      </svg>
+    </div>
+    <div id="Heart">
+      <svg class="Heart_bg" viewBox="0.025 0.025 16 14.119">
+        <path id="Heart_bg" d="M 14.74600410461426 1.303996920585632 C 13.04067516326904 -0.4013324081897736 10.33220958709717 -0.4013324081897736 8.62688159942627 1.303996920585632 L 8.02500057220459 1.905877828598022 L 7.42311954498291 1.303996920585632 C 5.717790126800537 -0.4013323187828064 3.009326219558716 -0.4013323187828064 1.303996920585632 1.303996920585632 C -0.4013324081897736 3.009326219558716 -0.4013324081897736 5.717790126800537 1.303996920585632 7.423119068145752 L 8.02500057220459 14.14412307739258 L 14.74600410461426 7.423120021820068 C 16.45133209228516 5.717790126800537 16.45133209228516 3.009326219558716 14.74600410461426 1.303996920585632"> </path>
+      </svg>
+    </div>
+    <div id="Symbol_10__3">
+      <div id="Options">
+        <svg class="Rectangle_449">
+          <rect id="Rectangle_449" rx="0" ry="0" x="0" y="0" width="16" height="16"> </rect>
+        </svg>
+        <svg class="Union_1" viewBox="0 0 3 15">
+          <path id="Union_1" d="M 0 13.49972915649414 C 0 12.67174625396729 0.6714671850204468 11.99946022033691 1.500450134277344 11.99946022033691 C 2.328532934188843 11.99946022033691 3 12.67174625396729 3 13.49972915649414 C 3 14.32771301269531 2.328532934188843 15 1.500450134277344 15 C 0.6714671850204468 15 0 14.32771301269531 0 13.49972915649414 Z M 0 7.499549865722656 C 0 6.671566486358643 0.6714671850204468 6.000179767608643 1.500450134277344 6.000179767608643 C 2.328532934188843 6.000179767608643 3 6.671566486358643 3 7.499549865722656 C 3 8.328433036804199 2.328532934188843 8.999819755554199 1.500450134277344 8.999819755554199 C 0.6714671850204468 8.999819755554199 0 8.328433036804199 0 7.499549865722656 Z M 0 1.500270009040833 C 0 0.6713865399360657 0.6714671850204468 0 1.500450134277344 0 C 2.328532934188843 0 3 0.6713865399360657 3 1.500270009040833 C 3 2.328253269195557 2.328532934188843 2.999639987945557 1.500450134277344 2.999639987945557 C 0.6714671850204468 2.999639987945557 0 2.328253269195557 0 1.500270009040833 Z"> </path>
+        </svg>
+      </div>
+    </div>
+    <ul>
+      <div id="PLAY_bp">
+        <li><a href="landingpage.html">PLAY</a></li>
+      </div>
+      <div id="ABOUT_bq">
+        <li><a href="aboutuspage.html">ABOUT</a></li>
+      </div>
+      <div id="GAME_CREDS">
+        <li><a href="gamecredspage.html">GAME CREDITS</a></li>
+      </div>
+      <div id="MERCHANDISE">
+        <li><a href="merchpage.html">MERCHANDISE</a></li>
+      </div>
+      <div id="SHARE_YOUR_THOUGHTS">
+        <li><a href="sythoughtspage.html">SHARE YOUR THOUGHTS</a></li>
+      </div>
+      <div id="OUR_SOCIALS">
+        <li><a href="socialspage.html">OUR SOCIALS</a></li>
+      </div>
+    </ul>
+  </div>
+  <div id="Footer_10" class="Footer_10">
+    <svg class="Base_bs" viewBox="0 0 1366 68">
+      <path id="Base_bs" d="M 0 0 L 1366 0 L 1366 68 L 0 68 L 0 0 Z"> </path>
+    </svg>
+    <div id="PROPERTY_OF_JANA_ANTONIA_NG_NG"> PROPERTY OF JANA ANTONIA NG, NGEE ANN POLYTECHNIC 2020 </div>
+    <div onclick="topFunction()" id="up">
+      <svg class="Rectangle_130">
+        <rect id="Rectangle_130" rx="0" ry="0" x="0" y="0" width="40" height="40"> </rect>
+      </svg>
+      <div id="Symbol_50__1" class="Symbol_50___1">
+        <svg class="Path_10" viewBox="0 0 16 16">
+          <path id="Path_10" d="M 8 0 L 6.545454978942871 1.454545497894287 L 12.05194854736328 6.961039066314697 L 0 6.961039066314697 L 0 9.038961410522461 L 12.05194854736328 9.038961410522461 L 6.545454978942871 14.54545497894287 L 8 16 L 16 8 L 8 0 Z"> </path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	</div>
+</body>
+</html>
